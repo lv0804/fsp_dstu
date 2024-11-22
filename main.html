@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>форма</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="search-container">
+                <button class="search-button">
+                    <img src="./icon/header_icon/search.png" alt="">
+                </button>
+                <input type="text" id="search" placeholder="Search for any training you want" class="search-input">
+            </div>
+            <div class="header-reg">
+                <a href="#!" class="header-notifications">
+                    <img src="./icon/header_icon/notifications.png" alt="notifications">
+                </a>
+                <a href="#!" class="header-account">
+                    <img src="./icon/header_icon/account.png" alt="account">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+            <div class="section-left">
+                <h3 class="main-title">Меню</h3>
+        
+                <a href="#!"><img src="./icon/main/section_1/5.png" alt=""></a>
+                <a href="#!"><img src="./icon/main/section_1/6.png" alt=""></a>
+                <a href="#!"><img src="./icon/main/section_1/8.png" alt=""></a>
+                <a href="#!"><img src="./icon/main/section_1/Vector.png" alt=""></a>
+            </div>
+
+            <div class="section-central">Секция 70%
+                <button class="calendar-button" id="openCalendarBtn">
+                    <img src="./icon/main_icon/calendar.png" alt="calendar">
+                </button>
+                <div id="calendarPopup" class="calendar-popup">
+                    <div class="calendar-header">
+                        <span id="calendarMonth"></span>
+                        <button class="calendar-close" id="closeCalendarBtn">×</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-right">Секция 25%
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
